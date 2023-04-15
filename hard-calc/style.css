@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	background: black;
+}
+
+#calc {
+	display: block;
+	text-align: center;
+	margin-left: 70vh;
+	margin-top: 22vh;
+	border: 1px solid grey;
+	padding: 40px 0px 70px 0px;
+	width: 500px;
+	border-radius: 20px;
+}
+
+p {
+	font-size: 55px;
+	color: grey;
+	text-align: end;
+	width: 390px;
+}
+
+button {
+	padding: 25px;
+	color: rgb(247, 247, 247);
+	width: 70px;
+	font-size: 25px;
+	background-color: #2f2f32;
+	border: none;
+	border-radius: 10px;
+	margin: 3px;
+}
+
+#orange {
+	background-color: #fdde55;
+	color: #2f2f32;
+}
+
+#clear {
+	text-align: start;
+}
