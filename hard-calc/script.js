@@ -27,8 +27,6 @@ document.querySelector('.buttons').onclick = event => {
 			a += key
 			out.textContent = a
 			console.log(a, b, sign)
-		} else if (a !== '' && (b !== '') && finish) {
-			console.log('fsdf')
 		} else {
 			b += key
 			out.textContent = b
